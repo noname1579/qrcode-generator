@@ -1,0 +1,7 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom right, #6b21a8, #312e81);
+}
