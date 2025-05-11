@@ -26,6 +26,7 @@ function App() {
   function clearData() {
     console.log(132)
     setQrcode('')
+    setData('')
   }
 
 
