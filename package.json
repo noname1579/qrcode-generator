@@ -1,5 +1,6 @@
 {
   "name": "qrcode-generator",
+  "homepage": "https://noname1579.github.io/qrcode-generator/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,11 +8,13 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
     "axios": "^1.9.0",
+    "gh-pages": "^6.3.0",
     "lucide-react": "^0.509.0",
     "postcss": "^8.5.3",
     "qrcode": "^1.5.4",
